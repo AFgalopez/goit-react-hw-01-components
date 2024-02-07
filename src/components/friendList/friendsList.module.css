@@ -1,0 +1,31 @@
+ul {
+  margin-bottom: 165px;
+}
+.item {
+  background-color: white;
+  box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.41);
+  border-radius: 1%;
+  display: flex;
+  flex-direction: row;
+  padding: 2% 5%;
+  gap: 6%;
+  margin: 2%;
+  width: 100vw;
+  max-width: 600px;
+}
+
+.online {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.offline {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
